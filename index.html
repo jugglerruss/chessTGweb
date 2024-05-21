@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | ChessTG</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style.css?ver=1">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
@@ -22,7 +22,7 @@
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
-          navigator.serviceWorker.register("ServiceWorker.js");
+          navigator.serviceWorker.register("ServiceWorker.js?ver=1");
         }
       });
 
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/8e13e18b9ca19ca1632c77334ccf5af2.loader.js";
+      var loaderUrl = buildUrl + "/20feaaeadf4bec450f7f23778ecf1f73.loader.js?ver=1";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/e631963b693c2a0b847f71b92079c758.data",
-        frameworkUrl: buildUrl + "/5b43144c596b313a5677c1b2768f9a69.framework.js",
-        codeUrl: buildUrl + "/a00a2f7ea427afa3428e050633d573eb.wasm",
+        dataUrl: buildUrl + "/a0da2416f2fe3882929a57597197665f.data",
+        frameworkUrl: buildUrl + "/5b43144c596b313a5677c1b2768f9a69.framework.js?ver=1",
+        codeUrl: buildUrl + "/67590b01eefd007e4e2b638f910b5c20.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ChessTG",
